@@ -21,6 +21,7 @@ $(document).ready(function () {
   //Show mobile menu
   $(".mobile-menu__link--account").on("click", function () {
     $(".enterForm-mobile").css("display", "block");
+    $("body").css("overflow", "hidden");
   });
 
   //Close enterForm
@@ -33,6 +34,7 @@ $(document).ready(function () {
   //Close enterForm-mobile
   $(".enterForm-mobile__close").on("click", function () {
     $(".enterForm-mobile").css("display", "none");
+    $("body").css("overflow", "scroll");
   });
 
   //Help popup show
