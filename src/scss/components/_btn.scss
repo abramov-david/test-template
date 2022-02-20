@@ -1,0 +1,24 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6rem;
+  color: $color-white;
+  border-radius: $br--main;
+  background-color: $color-red--rose;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $color-btn-hover;
+  }
+
+  &--big {
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  &--sm {
+    width: 142px;
+  }
+}

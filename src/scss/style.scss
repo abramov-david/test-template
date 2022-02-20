@@ -1,0 +1,19 @@
+@import "abstracts/variables";
+
+@import "base/base";
+
+@import "layout/header";
+@import "layout/header-mobile";
+@import "layout/footer";
+@import "layout/footer-mobile";
+
+@import "pages/index";
+@import "pages/_index_mobile";
+
+@import "components/burger";
+@import "components/desktop-menu.scss";
+@import "components/mobile-menu";
+@import "components/enterForm";
+@import "components/enterForm-mobile";
+@import "components/btn";
+@import "components/help-icon";

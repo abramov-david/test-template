@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines 1rem '10px'
+  font-size: 62.5%;
+  font-family: "regular";
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+}
+.main-content {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main-content__mobile {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#overlay {
+  display: none;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 8;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .pay-details__block {
+    padding: 0 20px;
+  }
+  .search-block__input-block,
+  .search-block__title {
+    padding: 0 85px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  //desktop
+  .header,
+  .footer {
+    display: flex;
+  }
+  .main-content {
+    display: block;
+  }
+  //mobile
+  .header-mobile,
+  .footer-mobile,
+  .main-content__mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  //desktop
+  .header,
+  .footer,
+  .main-content {
+    display: none;
+  }
+
+  //mobile
+  .header-mobile,
+  .footer-mobile {
+    display: flex;
+  }
+  .main-content__mobile {
+    display: block;
+  }
+}

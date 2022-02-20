@@ -1,0 +1,136 @@
+.search-block_mobile {
+  height: 215px;
+  background-image: url("/img/pic_main@2x.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    max-width: 100%;
+  }
+
+  &__title {
+    color: $color-white;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+
+  &__input {
+    width: 320px;
+    height: 48px;
+    border-radius: $br--main;
+    padding-left: 12px;
+    color: $color-grey;
+    border: 2px solid $bc--main;
+  }
+  &__input:focus {
+    outline: none;
+  }
+
+  &__input-block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 17.5px;
+    margin-bottom: 10px;
+  }
+  &__search-icon {
+    position: absolute;
+    top: 24%;
+    right: 4%;
+
+    &:hover {
+      cursor: pointer;
+      fill: $color-blue--light;
+    }
+    &:hover #Union_2 {
+      fill: $color-blue--light;
+    }
+  }
+
+  &__subText {
+    max-width: 320px;
+    width: 100%;
+    color: $color-white;
+  }
+}
+
+.pay-types_mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  margin-top: 28px;
+  margin-bottom: 28px;
+
+  &__block {
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 1px solid $bc--main;
+    padding: 10px 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+    &:hover #Path_25,
+    &:hover #Path_26,
+    &:hover #Path_32,
+    &:hover #Path_33,
+    &:hover #Path_34 {
+      fill: $color-blue--light;
+    }
+    &:hover .pay-types_mobile__titleText {
+      color: $color-blue--light;
+    }
+  }
+  &__textBlocks {
+    display: none;
+    max-width: 600px;
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+  &__mainTitle {
+    margin-bottom: 17px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  &__titleText {
+    width: 75%;
+    color: $color-blue;
+    & span {
+      border-bottom: 1px dotted $color-blue;
+    }
+  }
+  &__text-block:first-child {
+    margin-top: 15px;
+  }
+  &__text-block:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &__subTitle {
+    color: $color-red;
+  }
+}
+
+/* Arrow transform class */
+.arrowTransform {
+  transform: rotate(180deg);
+}
+
+.our-partners__title--mobile {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 33px;
+  position: sticky;
+  background-color: #fff;
+  top: 0;
+  border-bottom: 2px solid $bc--main;
+  z-index: 6;
+  margin-bottom: 50px;
+
+  &__help {
+    position: relative;
+    .help-icon {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "bold";
+  src: url(../files/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "regular";
+  src: url(../files/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "semibold";
+  src: url(../files/fonts/OpenSans-SemiBold.ttf);
+}
+
+//FONTS COLORS
+
+$color-white: #fff;
+$color-black: #000;
+$color-blue: #004685;
+$color-blue--light: #569ddc;
+$color-red: #d30531;
+$color-grey: #00000075;
+$color-red--rose: #e1133f;
+$color-btn-hover: #cb1139;
+
+//BORDER_COLOR
+$bc--main: #00468533;
+
+//FONT SIZES
+.text-huge {
+  font-size: 3.6rem;
+}
+.text-huge--sm {
+  font-size: 2.8rem;
+}
+.text-big {
+  font-size: 2.5rem;
+}
+
+.text_big--sm {
+  font-size: 2.4rem;
+}
+
+.text-medium {
+  font-size: 2rem;
+}
+.text-regular {
+  font-size: 1.6rem;
+}
+
+.text-small {
+  font-size: 1.2rem;
+}
+
+//FONT WEIGHT
+.text-weight--bold {
+  font-family: "bold";
+}
+.text-weight--semibold {
+  font-family: "semibold";
+}
+
+.text-weight--regular {
+  font-family: "regular";
+}
+
+//BORDER-RADIUS
+$br--main: 8px;

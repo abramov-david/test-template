@@ -1,0 +1,10 @@
+.footer-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+  background-color: $bc--main;
+  height: 124px;
+  padding: 20px 0;
+}
