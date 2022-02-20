@@ -358,6 +358,10 @@ body {
   flex-wrap: wrap;
 }
 
+.our-partners__logo-block--gapy {
+  row-gap: 33px;
+}
+
 .our-partners__logo {
   display: flex;
   flex-direction: column;

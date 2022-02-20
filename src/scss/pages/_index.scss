@@ -184,6 +184,9 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+  &__logo-block--gapy {
+    row-gap: 33px;
+  }
   &__logo {
     display: flex;
     flex-direction: column;
